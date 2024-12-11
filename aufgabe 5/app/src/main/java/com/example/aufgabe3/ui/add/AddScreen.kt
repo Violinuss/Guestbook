@@ -206,16 +206,9 @@ fun DateRangePickerModal(
         onDismissRequest = onDismiss,
         colors = DatePickerDefaults.colors(
             containerColor = Pink80,
-            titleContentColor = Color.White,
-            headlineContentColor = Color.White,
             dayInSelectionRangeContainerColor = Beere,
             dayInSelectionRangeContentColor = Beere,
-            disabledSelectedDayContentColor = Beere,
-            selectedDayContentColor = Beere,
-            selectedDayContainerColor = Beere,
-            todayContentColor = Beere
-
-
+            disabledSelectedDayContentColor = Beere
         ),
         confirmButton = {
             TextButton(
